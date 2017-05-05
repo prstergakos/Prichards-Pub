@@ -1,0 +1,464 @@
+body {
+	background-color: black;
+}
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	text-align: center;
+}
+
+.nav {
+	font-family: 'Rock Salt', cursive;
+	font-size: 0.8em;
+	font-weight: bold;
+	
+}
+
+.nav ul {
+	padding: 0;
+	margin-top: 0.5;
+	margin-bottom: 0.5em;
+}
+
+.nav li {
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.2em;
+}
+
+.nav li a{
+	color: white;
+	text-decoration: underline;
+}	
+
+.drinks h2 {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	text-align: center;
+}
+
+.drinks img {
+	width: 100%;
+	padding: 0.5em;
+}
+
+.drinks p { 
+	color: white;
+	padding-left: 1em;
+}
+
+.drinks aside {
+	color: black;
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+	
+}
+
+.drinks2 h2 {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	text-align: center;
+}
+
+.drinks2 img {
+	width: 100%;
+	padding: 0.5em;
+}
+
+.drinks2 p {
+	color: white;
+	padding-left: 1em;
+}
+
+.drinks2 aside {
+	color: black;
+	font-family: 'Rock Salt', cursive;
+	text-align: inline;
+}
+
+.food img {
+	width: 100%;
+	padding: 0.5em;
+}
+
+.food h2 {
+	color: white;
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+	padding-bottom: 0.5em;
+}
+
+.food p {
+	color: white;
+	padding-left: 1em
+}
+
+aside  {
+		background-color: white;
+		text-align: center;
+		border-radius: 5em 5em 5em 5em;
+		box-shadow: 1em 1em 1em black;
+		padding: 1.5em;
+		margin: 1.5em;
+		font-family: 'Rock Salt', cursive;
+		font-weight: bold;
+		font-size: 20px;
+		color: black;
+	}
+
+.food2 img {
+	width: 100%;
+	padding: 0.5em;
+}
+
+.food2 h2{    
+	color: white;
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+	padding-bottom: 0.5em;
+}
+
+.food2 p {
+	color: white;
+	padding-left: 1em;
+	
+}
+	
+.reservations {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	padding-left: 2em;
+	text-align: center;
+	font-size: .3em;
+}
+
+#respic img {
+	width: 100%;
+	padding: 0.5em;
+}
+
+.jumbotron  {
+	background-image: url(../images/flight.jpg);
+	height: 100px;	
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.jumbotron h1 {
+	font-family: 'Inknut Antiqua', serif;
+	margin-top: -0.7em;
+	text-shadow: 1px 1px white;	
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+
+.jumbotron p {
+		font-size: 15px;
+		color: white;
+		font-family: 'Rock Salt', cursive;
+		text-shadow: 1px 1px black;
+		font-weight: bold;
+		text-align: center;
+}
+
+#heading {
+	display: none;
+}	
+
+.container h3 {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+}
+
+.container p {
+	color: white;
+}
+	
+	
+form {
+	background-color: black;
+	padding: 2em;
+}
+
+input, select, textarea {
+	display: block;
+}
+
+label {
+	color: white;
+}
+
+.address {
+	padding-left: 2em;
+	color: white;
+}
+
+footer {
+	font-size: 0.5em;
+	text-align: center;
+}
+
+@media only screen and (min-width 660px) {
+	
+	
+}
+@media only screen and (min-width: 900px) {
+	
+	.nav a {
+		color: white;
+		font-size: 9px;
+		font-weight: bold;
+		padding: 100px;
+		text-transform: uppercase;
+		font-family: 'Rock Salt', cursive;
+	}
+
+	.nav li {
+		display: inline;
+	}
+	
+	.nav li a {
+		text-decoration: none;
+	}
+
+	.nav {
+		background-color: Black;
+	}
+
+	.jumbotron {
+		background-image: url(../images/pints.jpg);
+		height: 500px;	
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	.jumbotron {
+		background-image: url(../images/pints.jpg);
+		height: 500px;	
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+		
+	.jumbotron p {
+		font-size: 24px;
+		color: black;
+		font-family: 'Rock Salt', cursive;
+		text-shadow: 0.5px 0.5px white;
+		padding-top: 6em;
+		font-weight: bold;
+	}
+		
+	.jumbotron h1 {
+		font-size: 100px;
+		font-family: 'Inknut Antiqua', serif;
+		color: Black;
+		text-shadow: 3px 3px white;
+		font-weight: bold;
+		padding-top: 1em;
+	}	
+
+	.jumbotron a {
+		color: blue;
+		font-weight: bold;
+	}
+
+	.learn-more {
+	background-color: Black;
+	margin-top: -3em;
+	}
+
+	.learn-more h3 {
+	color: White;
+	font-family: 'Rock Salt', cursive;
+	text-shadow: 1px 1px black;
+	}
+	
+	.learn-more a {
+		color: blue;
+	}
+
+	.learn-more p {
+		color: white;
+	}
+
+	.jumbotron2 {
+		background-image: url(../images/bar.jpg);
+		height: 500px;	
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	.jumbotron2 p {
+		font-size: 80px;
+		color: white;
+		font-family: 'Rock Salt', cursive;
+		text-shadow: 3px 3px black;
+		padding-left: 2em;
+		padding-top: 3em;
+	}
+
+	.jumbotron2 .container {
+		position: relative;
+		top: 100px;
+		text-align: left;
+	}
+
+	.jumbotron3 {
+		background-image: url(../images/food6.jpg);
+		height: 500px;	
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	.jumbotron3 p {
+		font-size: 80px;
+		color: white;
+		font-family: 'Rock Salt', cursive;
+		text-shadow: 3px 3px black;
+		padding-left: 2em;
+		padding-top: 4.5em;
+		}
+
+	.jumbotron4 {
+		background-image: url(../images/flight.jpg);
+		height: 500px;	
+		background-repeat: no-repeat;
+		background-size: 100%;
+		}
+
+	.jumbotron4 p {
+		font-size: 80px;
+		color: white;
+		font-family: 'Rock Salt', cursive;
+		text-shadow: 3px 3px black;
+		padding-left: 2em;
+		padding-top: 2em;}
+	
+	.reservations h2 {
+		color: white;
+		font-family: 'Rock Salt', cursive;
+	}
+	
+	.address p {
+		color: white;
+	}
+
+	main {
+		clear: left;
+		margin-top: -0.3em;
+		border-radius: 0;
+		overflow: auto;
+		background: black;
+	}
+	
+	#respic {
+		float: right;
+		padding-top: 5em;
+		padding-right: 5em;
+	}
+	
+	#heading {
+	display: inline;
+	}
+
+	article {
+		background-color: black;
+		float: left;
+		margin: 0.5%;
+		padding: 0.5%;
+		text-align: center;
+		width: 40%;
+	}
+
+	main article img {
+		border: solid .05em black;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+	
+	.address {
+		padding-top: -4em;
+		padding-left: 2em;
+	}
+	
+	main article p {
+		color: white;
+		margin-top: 2%;
+		padding: 2%;
+		text-align: left;
+	
+	}
+
+	.drinks article aside {
+		background-color: white;
+		border-radius: 5em 5em 5em 5em;
+		box-shadow: 1em 1em 1em black;
+		padding: 1.5em;
+		margin: 1.5em;
+		font-family: 'Rock Salt', cursive;
+		font-weight: bold;
+		font-size: 20px;
+		color: black;
+	}
+	
+	.drinks2 article aside {
+		background-color: white;
+		border-radius: 5em 5em 5em 5em;
+		box-shadow: 1em 1em 1em black;
+		padding: 3em;
+		margin: 1.5em;
+		font-family: 'Rock Salt', cursive;
+		font-weight: bold;
+		font-size: 20px;
+		color: black;
+		
+	}
+
+	.drinks article {
+		text-align: center;
+		padding-left: 5em;
+	}
+	
+	.drinks2 article {
+		text-align: center;
+		padding-left: 5em;
+	}
+		
+		.drinks h2 {
+		font-family: 'Rock Salt', cursive;
+		color: white;
+	}
+
+	.drinks2 h2 {
+		font-family: 'Rock Salt', cursive;
+		color: white;
+	}
+	
+	.food article {
+		text-align: center;
+		padding-left: 5em;
+	}
+	
+	.food2 article {
+		text-align: center;
+		padding-left: 5em;
+	}
+
+	footer {
+		background-color: black;
+		margin-top: -.02em;
+		padding: 2em;
+		overflow: auto;
+		font-size: 10px;
+		text-align: center;
+	}
+}
+
