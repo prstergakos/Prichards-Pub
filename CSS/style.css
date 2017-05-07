@@ -68,7 +68,6 @@ img {
 	text-shadow: 3px 3px black;
 	padding-top: 3em;
 	font-weight: bold; 
-	
 }
 
 .jumbotron3 {
@@ -106,8 +105,7 @@ img {
 	font-family: 'Rock Salt', cursive;
 	color: white;
 	text-shadow: 2px 2px black;
-	font-weight: bold;
-	
+	font-weight: bold;	
 }
 
 article  h2 {
@@ -247,9 +245,7 @@ footer {
 	
 	footer {
 		clear: left;
-	}
-	
-	
+	}	
 }
 
 @media only screen and (min-width: 830px) {
@@ -300,7 +296,6 @@ footer {
 		margin-left: auto;
 		margin-right: auto;
 		width: 100%;
-		
 	}
 	
 	footer {
@@ -309,9 +304,6 @@ footer {
 		font-size: 10px;
 		text-align: center;
 	}
-	
-		
-	
 }
 
 
