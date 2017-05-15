@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="icon" href="images/mugtop1.jpg">
 	<meta charset="UTF-8">
-	<meta name="viewport" content=width="device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta name="description" content="Prichards is a gastro pub with a variety of beers and whiskeys from around the world.">
 	<title>PRICHARDS</title>
 </head>
@@ -94,6 +94,15 @@
 		</div>
 		
 	</footer>
-	
+	<script>
+		function submitInfo () {
+			var name=document.getElementById("fName");
+			var lName=document.getElementById("lName");
+			var email=document.getElementById("email");
+			var phone=document.getElementById("phone");
+			(name.value && lName.value && email.value && phone.value) ? alert("Looks like someone is thirsty") : alert("Please complete missing fields");
+		}
+		document.getElementById("submit").addEventListener("click", submitInfo, false);
+	</script>
 </body>
 </html>
