@@ -16,6 +16,7 @@ img {
 	list-style-type: none;
 	margin: 0.1em;
 	padding: 0.1em;
+	display: block;
 }
 
 .jumbotron {
@@ -47,11 +48,18 @@ img {
 	color: white;
 	font-family: 'Rock Salt', curive;
 	text-shadow: 1px 1px black;
+	text-align: center;
+	padding-bottom: 1em;
 }
 
 .container p {
 	color: white;
 	font-family: 'Rock Salt', cursive;
+}
+
+.container li {
+	color: white;
+	list-style-type: none;
 }
 
 .jumbotron2 {
@@ -108,7 +116,23 @@ img {
 	font-weight: bold;	
 }
 
-article  h2 {
+.jumbotron5 {
+	background-image: url(..//images/stage.jpg);
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.jumbotron5 h1 {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	text-shadow: 3px 3px black;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 1em;
+}
+
+article h2 {
 	font-family: 'Rock Salt', cursive;
 	color: white;
 	text-align: center;
@@ -156,11 +180,14 @@ aside {
 	
 form  {
 	color: white;
+	padding-left: 2em;
+	padding-top: 1em;
 }
 
 .address {
 	color: white;
 	padding-top: 2em;
+	padding-left: 2em;
 }
 
 input, select, textarea {
@@ -174,7 +201,6 @@ footer {
 	font-size: 10px;
 	text-align: center;
 	color: white;
-	padding-top: 2em;
 }
 
 @media only screen and (min-width: 660px) {
@@ -222,6 +248,15 @@ footer {
 	}
 	
 	.jumbotron4 p {
+		font-size: 30px;
+		text-shadow: 2px 2px black;
+	}
+	
+	.jumbotron5 {
+		height: 250px;
+	}
+	
+	.jumbotron5 p {
 		font-size: 30px;
 		text-shadow: 2px 2px black;
 	}
@@ -283,6 +318,17 @@ footer {
 		font-size: 50px;
 	}
 	
+	.jumbotron5 {
+		height: 500px;
+	}
+	
+	.jumbotron5 h1 {
+		color: black;
+		text-shadow: 1px 1px white;
+		font-size: 8em;
+		padding-bottom: 1em;
+	}
+	
 	article {
 		background-color: black;
 		float: left;
@@ -303,6 +349,7 @@ footer {
 		clear: left;
 		font-size: 10px;
 		text-align: center;
+		padding-top: 3em;
 	}
 }
 

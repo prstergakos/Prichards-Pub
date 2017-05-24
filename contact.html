@@ -34,35 +34,37 @@
 	
 	<main>
 	
-		<form>
-	
-			<label for="fName">First Name:</label>
-			<input type="text" id="fName" name="fName">
+		<form novalidate="novalidate">
+			<div id="errorText"></div>
+			<div id="numErrorText"></div>
+			<fieldset id="contactinfo">
+				<label for="fName">First Name:</label>
+				<input type="text" id="fName" name="fName" required="required"/>
 			
-			<label for="lName">Last Name:</label>
-			<input type="text" id="lName" name="lName">
+				<label for="lName">Last Name:</label>
+				<input type="text" id="lName" name="lName" required="required"/>
+				
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required="required"/>
 			
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email">
+				<label for="phone">Phone:</label>
+				<input type+"tel" id="phone" name="phone" required="required"/>
 			
-			<label for="phone">Phone:</label>
-			<input type+"tel" id="phone" name="phone">
+				<label for="reference">How did you hear about us?</label>
+				<select name="reference" id="reference" required="required"/>
+					<option value="ad">Advertisement</option>
+					<option value="friend">Friend</option>
+					<option value="google">Google</option>
+					<option value="socal">Social Media</option>
+					<option value="other">Other</option>
+				</select>
+				<label for="questions">Questions or Requests?</label>
+				<textarea id="questions" name="questions" rows="3" cols="25"></textarea>
 			
-			<label for="reference">How did you hear about us?</label>
-			<select name="reference" id="reference">
-				<option value="ad">Advertisement</option>
-				<option value="friend">Friend</option>
-				<option value="google">Google</option>
-				<option value="socal">Social Media</option>
-				<option value="other">Other</option>
-			</select>
-			
-			<label for="questions">Questions or Requests?</label>
-			<textarea id="questions" name="questions" rows="3" cols="25"></textarea>
-			
-			<input type="submit" id="submit" value="Submit" class="btn">
-			<input type="reset" id="reset" value="Reset" class="btn">
-		</form>
+				<input type="submit" id="submit" value="Submit" class="btn">
+				<input type="reset" id="reset" value="Reset" class="btn">
+			</form>
+		</fieldset>
 	
 		<div class="address">
 		<p>Address:<br>
@@ -100,9 +102,10 @@
 			var lName=document.getElementById("lName");
 			var email=document.getElementById("email");
 			var phone=document.getElementById("phone");
-			(name.value && lName.value && email.value && phone.value) ? alert("Looks like someone is thirsty") : alert("Please complete missing fields");
+			(name.value && lName.value && email.value && phone.value) ? alert("Looks like someone is thirsty") : alert("looks like you forgot something");
 		}
 		document.getElementById("submit").addEventListener("click", submitInfo, false);
 	</script>
+	<!--<script src = "script.js"></script>-->
 </body>
 </html>
