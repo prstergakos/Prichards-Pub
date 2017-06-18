@@ -1,4 +1,4 @@
-body {
+	body {
 	background-color: black;
 }
 
@@ -300,18 +300,22 @@ footer {
 	
 	
 	.jumbotron {
-		height: 500px;
+		background-size: cover;
+		background-position: center center;
 	}
 	
 	.jumbotron h1 {
 		color: black;
 		text-shadow: 1px 1px white;
-		font-size: 10em;
-		padding-top: 1em;
+		font-size: 7em;
+		/*padding-top: .em;*/
 	}
 	
 	.jumbotron2 {
-		height: 500px;
+		background-image: url(..//images/final.jpg);
+		background-size: cover;
+		background-position: left;	
+		
 	}
 	
 	.jumbotron2 h2 {
@@ -320,11 +324,25 @@ footer {
 	}
 	
 	.jumbotron3 {
-		height: 500px;
+		background-size: cover;
+		background-position: bottom;
+	}
+	
+	.jumbotron3 h1 {
+		font-size: 8em;
+		text-shadow: 10px 10px 10px black;
+	}
+	
+	#artalign {
+		Float: left;
+		padding-right: 3.5px;
+		text-align: left;
+		margin-right: 1em;
 	}
 	
 	.jumbotron4 {
-		height: 500px;
+		background-size: cover;
+		background-position: right top;
 	}
 	
 	.jumbotron4 h2 {
@@ -332,30 +350,29 @@ footer {
 	}
 	
 	.jumbotron5 {
-		height: 500px;
+		background-size: cover;
+		background-position: center;
 	}
 	
 	.jumbotron5 h1 {
 		color: black;
-		text-shadow: 1px 1px white;
-		font-size: 8em;
-		padding-bottom: 1em;
+		text-shadow: 2px 2px 2px white;
+		font-size: 5em;
+		text-align: left;
+		padding-top: .7em;
 	}
 	
-	article {
-		background-color: black;
-		float: left;
-		padding-left: 15%;
-		text-align: center;
-		width: 40%;
+	.jumbotron5 p {
+		padding-top: 1em;
+		font-size: 2em;	
 	}
 
-	main article img {
+	/*main article img {
 		border: solid .05em black;
 		margin-left: auto;
 		margin-right: auto;
 		width: 100%;
-	}
+	}*/
 	
 	footer {
 		background-color: black;
